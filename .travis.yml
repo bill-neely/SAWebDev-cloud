@@ -1,6 +1,14 @@
 language: ruby
+
 rvm:
   - 2.1.1
-
-script: 
+script:
   - bundle exec rspec spec
+
+deploy:
+  provider: heroku
+  api_key: "mtSQ9QkDkoURyydg1PlMj3Tc4UUKWqRlmqUzEKgx/mR7D63FZGXaqiQYA+kEV7PejwJYz6HdC5xnt+dabEksmu4g5RjPx2C9Ebzr9zJ5soua5JdvdJhLhffMRTkC8B7l84NFJb3rUR/AzGDjlS/cRcDMkJf0qgNRYhDKJEnJJV0="
+  app: obscure-hollows-9519  
+
+
+
