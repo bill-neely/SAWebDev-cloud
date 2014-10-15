@@ -4,4 +4,4 @@ This is an experiment for the San Antonio Web Developer Meetup group
 to explore using cloud based development, build and deploy tools
 for a proper Ruby on Rails application.
 
-I am attempting CHapter 3 of Railstutorial.org with a few mods
+I am attempting Chapter 3 of Railstutorial.org with a few mods
