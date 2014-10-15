@@ -7,8 +7,6 @@ script:
 
 deploy:
   provider: heroku
-  api_key: "mtSQ9QkDkoURyydg1PlMj3Tc4UUKWqRlmqUzEKgx/mR7D63FZGXaqiQYA+kEV7PejwJYz6HdC5xnt+dabEksmu4g5RjPx2C9Ebzr9zJ5soua5JdvdJhLhffMRTkC8B7l84NFJb3rUR/AzGDjlS/cRcDMkJf0qgNRYhDKJEnJJV0="
-  app: obscure-hollows-9519  
-
-
-
+  api_key:
+    secure: cTo7z40lt0TbzhRbqXBklWHGLeZSD0uL4Oiv7hQTknO453uEfpOGWk1vtkq6mkihIk1HNK6gimNSdAp/8SPvslysbBdB7HFRLZLe4UzSvq3dgZ67x2omYfATVSn9YtLBNYJ3e5Odlipcse1PTJhvz9tgtJ8w6ts0MOhGV6MMlF0=
+  app: obscure-hollows-9519
