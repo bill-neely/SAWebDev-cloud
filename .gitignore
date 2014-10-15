@@ -4,9 +4,16 @@
 *.rbc
 capybara-*.html
 .rspec
+
+# Ignore all logfiles and tempfiles.
 /log
+/log/*.log
 /tmp
+
+# Ignore the default SQLite database.
 /db/*.sqlite3
+/db/*.sqlite3-journal
+
 /public/system
 /coverage/
 /spec/tmp
@@ -15,8 +22,8 @@ rerun.txt
 pickle-email-*.html
 
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
-config/secrets.yml
+#config/initializers/secret_token.rb
+#config/secrets.yml
 
 ## Environment normalisation:
 /.bundle
@@ -32,3 +39,13 @@ config/secrets.yml
 /vendor/assets/bower_components
 *.bowerrc
 bower.json
+
+# Ignore other unneeded files.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
