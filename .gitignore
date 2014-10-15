@@ -41,7 +41,7 @@ pickle-email-*.html
 bower.json
 
 # Ignore other unneeded files.
-database.yml
+#database.yml - commented this since travis was failing
 doc/
 *.swp
 *~
