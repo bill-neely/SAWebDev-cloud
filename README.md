@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bill-neely/SAWebDev-cloud.svg?branch=master)](https://travis-ci.org/bill-neely/SAWebDev-cloud)
+
 # Ruby on Rails Tutorial: sample application
 
 This is an experiment for the San Antonio Web Developer Meetup group
